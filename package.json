@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-degenerate",
-  "version": "0.1.0",
+  "version": "2.0.1",
   "description": "DocPad plugin that adds debugging to generate",
   "homepage": "https://github.com/electblake/docpad-plugin-degenerate",
   "license": {
@@ -16,14 +16,20 @@
   "badges": {
     "travis": true,
     "npm": true,
-    "npmdownloads": true
+    "npmdownloads": true,
+    "david": true,
+    "daviddev": true
   },
   "author": "Blake Edwards <electblake@gmail.com> (http://twitter.com/electblake)",
   "maintainers": [
     "Blake Edwards <electblake@gmail.com> (https://github.com/electblake",
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
-  "contributors": [],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "electblake (https://github.com/electblake)",
+    "RobLoach (https://github.com/RobLoach)"
+  ],
   "bugs": {
     "url": "https://github.com/electblake/docpad-plugin-degenerate/issues"
   },
@@ -37,16 +43,14 @@
   "peerDependencies": {
     "docpad": "6"
   },
-  "dependencies": {},
+  "dependencies": {
+    
+  },
   "devDependencies": {
-    "docpad": "6",
     "coffee-script": "^1.9.1",
     "projectz": "^0.5.0"
   },
   "main": "./out/degenerate.plugin.js",
-  "scripts": {
-    "test": "node ./out/degenerate.test.js"
-  },
   "cakeConfiguration": {
     "COFFEE_SRC_PATH": "src"
   }
