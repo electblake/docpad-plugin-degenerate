@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-degenerate",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "DocPad plugin that adds debugging to generate",
   "homepage": "https://github.com/electblake/docpad-plugin-degenerate",
   "license": {
